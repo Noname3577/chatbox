@@ -1,0 +1,85 @@
+.chat-box {
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  width: 20rem;
+}
+.message {
+  margin: 5px 0;
+}
+.message.user {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 10px;
+  background-color: #07b0f2;
+  border-radius: 20px;
+  margin-left: 10rem;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    inset 3px 3px 5px 0 rgba(248, 248, 248, 0.3);
+  font-weight: bold;
+}
+.message.bot {
+  text-align: left;
+  color: green;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    inset 3px 3px 5px 0 rgba(248, 248, 248, 0.3);
+  font-weight: bold;
+}
+
+.btn_a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+button {
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #07b0f2;
+  border-radius: 20px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    inset 3px 3px 5px 0 rgba(248, 248, 248, 0.3);
+}
+
+button:hover {
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #70c9ec;
+  border-radius: 20px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    inset 3px 3px 5px 0 rgba(248, 248, 248, 0.3);
+}
